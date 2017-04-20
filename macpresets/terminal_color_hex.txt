@@ -1,0 +1,59 @@
+Black    0 : 3D352A
+Red      1 : CD5C5C
+Green    2 : 86AF80
+Yellow   3 : E8AE5B
+Blue     4 : 6495ED
+Magenta  5 : DE7D3E
+Cyan     6 : B0C4DE
+White    7 : 786D62
+Black    8 : 554444
+Red      9 : CC5533
+Green   10 : 88AA22
+Yellow  11 : FFA75D
+Blue    12 : 87CEEB
+Magenta 13 : 996600
+Cyan    14 : B0C4DE
+White   15 : F5EEFC
+
+Text         FFFFF1
+Bold Text    E2E2E2
+Selection    717171
+Cursor       FB454F
+
+
+Color
+Darker
+Lighter
+
+
+white
+120 109 98
+245 238 252
+
+Cyan
+176 196 222
+176 196 222
+
+Yellow
+232 174 91
+255 167 93
+
+Green
+134 175 128
+136 170 34
+
+Magenta
+222 125 62
+153 102 0
+
+Blue
+100 149 237
+135 206 235
+
+Red
+205 92 92
+204 85 51
+
+Black
+61 53 42
+85 68 68

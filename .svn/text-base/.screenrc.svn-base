@@ -1,0 +1,4 @@
+caption always '%{= kg}[%L=%{+u b} %=%{-u W}%?%-Lw%?%45L>%{Y}(%n*%f %t)%?(%u)%?%{W}%+Lw%{+u b} %=%-1=%{-u g}]'
+defscrollback 100000
+bind ^k next
+bind ' ' windows

@@ -1,0 +1,80 @@
+10
+
+dir
+425102
+svn+ssh://phchang@svn.cern.ch/reps/atlasinst/Institutes/UIUC/phchang/login/.vim
+svn+ssh://phchang@svn.cern.ch/reps/atlasinst
+
+
+
+2015-05-07T10:36:59.920889Z
+383719
+phchang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+28d52da6-859c-4cdc-abcc-1ec3d2c02001
+
+indent
+dir
+
+ftdetect
+dir
+
+.VimballRecord
+file
+
+
+
+
+2017-02-22T18:18:56.078713Z
+310b83686b8f184d60fb0357556e631f
+2015-02-09T08:34:50.048622Z
+376695
+phchang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+591
+
+doc
+dir
+
+syntax
+dir
+
+autoload
+dir
+
+plugin
+dir
+

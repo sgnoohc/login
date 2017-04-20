@@ -1,0 +1,351 @@
+==================== These are the list of all meetings dl'ed ========================
+X:  TTHbbLeptonic and the world
+X:  VV->ll/lv jj at 8 TeV
+X:  TopBosonTagAnalysis2016 Rolling Agenda
+X:  TopBosonTagAnalysis2016 Rolling Agenda
+X:  VBS W(lnu)V(jj)jj informal meeting
+X:  (Hbb) A->Zh (bb) walkthrough
+X:  Indo-French LIA THEP and CEFIPRA INFRE-HEPNET Kick Off Meeting
+X:  Flow Group Weekly meeting
+X:  Exotics displaced hadronic jets informal analysis meeting
+X:  HTop allhad weekly meeting
+X:  Exotic Dilepton Search - Weekly Meeting
+X:  SUSY strong production with >=1 lepton(s)
+X:  Top Backgrounds: Fakes and W/Z+jets
+X:  SM Jet and Photon Physics meeting
+X:  SM W/Z-Physics group Meeting
+X:  LFV Z' Weekly Meeting
+X:  PMG Management
+X:  Rolling Agenda: 2016 Initial Alignment
+X:  ttHComb ICHEP16 informal meeting
+X:  SUSY strong production with 2 leptons
+X:  Informal multi-b-jets meeting
+X:  Exotics Jet plus Dark Matter (JDM) meeting
+X:  Tau Software Meeting
+X:  HH -> bbtautau informal meeting
+X:  VLQ - Wb+X Single Lepton (UBC/UMich/OkSU)
+X:  Differential ttbar cross-sections at 13 TeV all-hadronic boosted
+X:  Htop(bb)
+X:  HGam Fiducial & Differential Cross-Sections Meeting
+X:  Run 2 VBF Higgs to Invisible
+X:  ATLAS Flavour Tagging Workshop 2016
+X:  Inclusive jet + dijet cross section meeting
+X:  single production VLQ meeting
+X:  Wt Analysis in Run2
+X:  Exotics Dijet + ISR
+X:  Higgs Group Plenary and Approval Meeting
+X:  Top Reconstruction Weekly
+X:  Exotics displaced hadronic jets informal analysis meeting
+X:  Informal stop 0-lepton meeting
+X:  Standard Model Plenary Meeting
+X:  VZ llqq/vvqq weekly meeting
+X:  Vertex reconstruction meeting
+X:  Photon ID meeting
+X:  SUSY inclusive squark/gluino group meeting
+X:  Differential cross-sections at 13 TeV
+X:  Top properties & mass
+X:  Informal Material
+X:  Flavour Tagging Algorithm meeting
+O:  HBSM (all hands)
+X:  EGamma Calibration
+X:  SUSY 0-lepton meeting
+X:  MSSM/Z' tautau informal
+X:  V+HF analysis meeting
+X:  All-hadronic diboson resonance search: Run-2
+X:  Higgs Combination and Properties meeting
+X:  EGamma meeting
+X:  Jet/Etmiss Main Meeting
+X:  Diboson/Multilepton Subgroup Meeting
+X:  Leptoquark Weekly
+X:  Top Cross-Section Meeting
+X:  ALFA Physics
+X:  HTop Plenary
+X:  Hbb Meeting
+X:  Z -> tau tau polarization meeting
+X:  HComb Morphing and Properties
+X:  Informal Recursive Jigsaw meeting
+X:  Run-2 Jet+MET meeting
+X:  HGam Coupling meeting
+X:  Disappearing track meeting
+X:  Diphoton search: Topical meeting on Categories
+X:  Onia and hadronic decays subgroup meeting
+X:  HLeptons meeting
+X:  Boosted ttH weekly
+X:  Informal stop 2-lepton meeting
+X:  Run-II 13TeV Vgamma Resonance Search weekly Meeting
+X:  Run-II 13TeV Vgamma Resonance Search weekly Meeting
+X:  SUSY WG approval meeting
+X:  Non-prompt LeptonJet meeting
+X:  Jet Calibration and Resolution
+X:  MC Performance + Tuning meeting
+X:  Informal stop + stau weekly meeting
+X:  Single-top meeting
+X:  HWW weekly meeting
+X:  Informal ttbar differential cross-sections at 13 TeV
+X:  Exotics: Lepton + X
+X:  H+ Common Meeting
+X:  Ttbar resonance searches
+X:  Run-II Higgs/Exotic Diboson WV -> lvqq resonance search Meeting
+X:  TauWG Meeting
+X:  Informal stop to charm meeting
+X:  Htop(bb)
+X:  SUSY Background Forum
+X:  VHreso vvbb/lvbb/llbb meeting
+X:  tt̄γ@8TeV
+X:  HGamma
+X:  Non Prompt Photon
+X:  Informal Z LFV meeting
+X:  HTop ttH->leptons meeting
+X:  HH bbtautau HadHad background discussion
+X:  Isolation Forum
+X:  HGamma: Run2 H->Zgamma meeting
+X:  Late Decaying Massive Particles
+X:  ttbar/Z 13TeV (25ns) and at 7\,8TeV
+X:  tt̄V multilepton
+X:  Hbb VH run II analysis  framework meeting
+X:  High-mass diphotons 2016 analysis
+X:  Informal General Search analysis meeting
+X:  B->K*mumu Analysis meeting
+X:  Flow Group Weekly meeting
+X:  Exotic Dijets Weekly meeting
+X:  Z 3D at 8 TeV meeting
+X:  SUSY Photons+X
+X:  HWW high-mass lvlv & lvqq joint meeting
+X:  Ht+X/4tops informal meeting
+X:  Physics Coordination Meeting [restricted]
+X:  Heavy Ion Jet Meeting
+X:  Exotic Dilepton Search - Weekly Meeting
+X:  tt̄γ@8TeV
+X:  WZ -> lvll resonance meeting
+X:  HTop allhad weekly meeting
+X:  Heavy Quarks and Top Subgroup Meeting
+X:  Run 2 Highly ionising particles
+X:  Same-sign/3 leptons + jets meeting
+X:  Egamma T&P
+X:  Jet inputs and pileup mitigation forum
+X:  SM Jet and Photon Physics meeting
+X:  Top Backgrounds: Fakes and W/Z+jets
+X:  SUSY strong production with >=1 lepton(s)
+X:  SM W/Z-Physics group Meeting *CANCELLED*
+X:  SM Soft QCD group meeting
+X:  LFV Z' Weekly Meeting
+X:  Higgs Coordination Meeting
+X:  ETmiss subgroup meeting
+X:  CERN Seminar Rehearsal
+X:  Wg/Zg vector boson scattering informal meeting
+X:  PMG Management
+X:  Large Radius Tracking
+X:  HTop: heavy H+ --> top b informal Meeting
+O:  HBSM coordination meeting
+X:  HWW fakes weekly meeting
+X:  DM+hf rolling meeting
+X:  Livepage for 20.7 data/MC studies (SUSY)
+X:  ID Alignment Meeting
+X:  VBF H(bb)+gamma analysis meeting
+X:  Monotop and VLQ T->tZ (Z->invisible) informal meeting
+X:  ttHComb ICHEP16 informal meeting
+X:  SUSY strong production with 2 leptons
+X:  All-hadronic diboson resonance search: Run-2
+X:  Informal multi-b-jets meeting
+X:  SM PDF Forum
+X:  Analysis Student Tutorial - Napoli & Roma1
+X:  HH -> bbtautau informal meeting
+X:  SM Electroweak group meeting
+X:  HZZ Weekly
+X:  VLQ - Wb+X Single Lepton (UBC/UMich/OkSU)
+X:  SM PDF Forum
+X:  Exotics Jet plus Dark Matter (JDM) meeting
+X:  Displaced non-collimated muons search
+X:  Tau Software Meeting
+X:  SUSY Electroweak Meeting
+X:  Live page for jet and MET studies with the first 2016 data
+X:  HGam Fiducial & Differential Cross-Sections Meeting
+X:  BsJpsiphi (Run1) work on Comments from JHEP - 5th meeting.
+X:  photon+jets NLO calculations meeting
+X:  Htop(bb)
+X:  W' single top working group
+X:  Top/Exotic same-sign dilepton 13 TeV analysis
+X:  Higgs Properties Tools (Morphing) workshop
+X:  Informal V+jets DB meeting
+X:  MCprod-PMG weekly meetings
+X:  Exotics HH-->4b Exotics Analysis Meeting
+X:  SUSY MultiJets for Run II
+X:  HLeptons meeting
+X:  Run 2 VBF Higgs to Invisible
+X:  Inclusive jet + dijet cross section meeting
+X:  W' Weekly Meeting
+X:  Hbb VH resolved analysis working meeting
+X:  Inner Tracking CP Weekly
+X:  WR/Heavy neutrino search meeting
+X:  Htopbb combination WS status update
+X:  Jet smearing review meeting
+X:  H to fermions
+X:  QJetphox discussion
+X:  single production VLQ meeting
+X:  Trigger Level Analysis Meeting
+X:  ATLAS Boosted Object Workshop Heidelberg 2016
+X:  Run-2 qqbb informal meeting
+X:  Measurements of Drell-Yan angular coefficients
+X:  Wt Analysis in Run2
+X:  AIDA SM Cross-Sections Meeting
+X:  Run 2 Exotics Diboson Resonance Combination Weekly
+X:  X-->bb Tagging Meeting
+X:  Run II VH Resonances
+X:  Exotics UEH Subgroup Meeting
+X:  Higgs Group Plenary and Approval Meeting
+X:  Exotics Dijet + ISR
+X:  Run2 VBF Hbb working meeting
+X:  Informal stop 0-lepton meeting
+X:  Beyond the first 13 TeV top measurements
+X:  Standard Model Plenary Meeting
+X:  Vertex reconstruction meeting
+X:  Photon + MET meeting
+X:  Photon ID meeting
+X:  SUSY inclusive squark/gluino group meeting
+X:  HI EW/Onia Subgroup Weekly
+X:  Software & Validation Subgroup Meeting
+X:  informal stop 1-lepton analysis
+X:  EFT session preparation for the Munich HZZ workshop
+X:  SUSY 2-lepton/3-lepton Informal meeting
+X:  VZ llqq/vvqq weekly meeting
+X:  Run-2 H > ZdZd > 4l Analysis Meeting
+X:  Informal Material
+O:  HBSM (all hands)
+X:  Flavour Tagging Algorithm meeting
+X:  Rare decays subgroup meeting
+X:  SM sub-group conveners meeting
+X:  Trigger Level Analysis Meeting
+X:  HWW properties meeting
+X:  0L+1L analyses discussion about SUSY model with bosons in the final state
+X:  EGamma Calibration
+X:  HTop allhad weekly meeting
+X:  SUSY 0-lepton meeting
+X:  Higgs to tau tau CP (decay+VBF)
+X:  Hbb bH Analysis
+X:  Chat on measurements of polarization and angular distributions
+X:  Heavy Ion Weekly Meeting
+X:  Muon Combined Performance meeting
+X:  MCprod-PMG weekly meetings
+X:  V+HF analysis meeting
+X:  MSSM/Z' tautau informal
+X:  H->mumu Run II analysis meeting
+X:  Exotics displaced hadronic jets informal analysis meeting
+X:  All-hadronic diboson resonance search: Run-2
+X:  Clustering & Tracking in Dense Environments Weekly Meeting
+X:  Flavour Tagging Calibration Meeting
+X:  VV VBF/VBS search meeting
+X:  Higgs Combination and Properties meeting
+X:  EGamma meeting
+X:  MC prod team weekly meeting
+X:  Jet/Etmiss Main Meeting
+X:  VV/VH Resonance Meeting
+X:  Informal di-photon at 8 TeV : paper plans
+X:  Leptoquark Weekly
+X:  H+ taunu informal
+X:  direct stop and sbottom group meeting
+X:  hh ->WWbb meeting
+X:  Prompt Lepton-Jet Meeting
+X:  HTop Plenary
+X:  THOR/MVA Meeting
+X:  Hbb Meeting
+X:  HComb Morphing and Properties
+X:  Z -> tau tau polarization meeting
+X:  Informal SUSY 4L meeting
+X:  ALFA Physics
+X:  Run-2 Jet+MET meeting
+X:  Informal Recursive Jigsaw meeting
+X:  HWW (W/Z)H analysis informal meeting
+X:  bTagged Dijets Meeting
+X:  Disappearing track meeting
+X:  SUSY EWK-2tau Informal meeting
+X:  Diphoton search: parton level matching
+X:  V+HF / VH multijet BG estimation
+X:  Z+jets
+X:  HLep: hadhad analysis meeting
+X:  Mw & Mz meeting
+X:  Htautau leplep informal meeting
+X:  Boosted ttH weekly
+X:  W+c @13TeV discussion
+X:  Run-II 13TeV Vgamma Resonance Search weekly Meeting
+X:  BSM Higgs Combination & Interpretation
+X:  WW Run2 meeting
+X:  ZZ analysis meeting (13 TeV)
+X:  Physics Modelling Group Plenary
+X:  Non-prompt LeptonJet meeting
+X:  Jet Calibration and Resolution
+X:  Informal stop + stau weekly meeting
+X:  Flavour Tagging Weekly
+X:  HI global / tracking
+X:  HWW weekly meeting
+X:  Informal ttbar differential cross-sections at 13 TeV
+X:  Ttbar resonance searches
+X:  ZGamma high mass paper discussion
+X:  APS April 2016
+X:  W+jets at 8 TeV
+X:  aQGC and dif H
+X:  Exotics: Lepton + X
+X:  H4l meeting
+X:  Informal stop to charm meeting
+X:  SUSY RPV/LL Meeting
+X:  Htop(bb)
+X:  HGamma
+X:  photon+hf analysis meeting
+X:  UM/HKU discussion
+X:  HTop ttH->leptons meeting
+X:  HLeptons SM Higgs TauTau LepHad Informal Meeting
+X:  HH bbtautau HadHad background discussion
+X:  Same Sign WW Meeting
+X:  hh->WWWW & WWgamgam meeting
+X:  Late Decaying Massive Particles
+X:  TauWG Meeting
+X:  tau->3mu analysis meeting
+X:  Hbb VH run II analysis  framework meeting
+X:  Heavy Ion Onia Weekly Discussion
+X:  Trigger Level Analysis Meeting
+X:  High-mass diphotons 2016 analysis
+X:  Informal General Search analysis meeting
+X:  B->K*mumu Analysis meeting
+X:  Weekly Flavour Tagging Software Meeting
+X:  Flow Group Weekly meeting
+X:  HI group approval meeting for HBT analysis in pPb collisions
+X:  Exotic Dijets Weekly meeting
+X:  SUSY Photons+X
+X:  HSG2: Run-2 ZH->ll+inv./mono-Z & H->ZZ->llvv
+X:  Z 3D at 8 TeV meeting
+X:  HI forward/UPC task force meeting
+X:  HWW high-mass lvlv & lvqq joint meeting
+X:  Physics Coordination Meeting [restricted]
+X:  Heavy Ion Jet Meeting
+X:  Object definitions in multilepton + b-jets analyses
+X:  HSG4: Mass Task Force meeting
+X:  Exotic Dilepton Search - Weekly Meeting
+X:  Informal Rscan meeting
+X:  HTop allhad weekly meeting
+X:  Heavy Quarks and Top Subgroup Meeting
+X:  Diffractive Physics with Forward Proton Tagging Working Group
+X:  Same-sign/3 leptons + jets meeting
+X:  Top Backgrounds: Fakes and W/Z+jets
+X:  Egamma T&P
+X:  HH -> bbtautau informal meeting
+X:  SM Jet and Photon Physics meeting
+X:  SUSY strong production with >=1 lepton(s)
+X:  VLQ: All-Hadronic Final State
+X:  ETmiss subgroup meeting
+X:  SM W/Z-Physics group Meeting
+X:  LFV Z' Weekly Meeting
+X:  Wg/Zg vector boson scattering informal meeting (Vidyo only)
+X:  PMG Management
+X:  Large Radius Tracking
+X:  Higgs Coordination Meeting
+X:  HTop: heavy H+ --> top b informal Meeting
+X:  Isolation Forum
+O:  Informal Particle Flow Meeting
+
+
+
+==================== You have exported the following meetings ========================
+    HBSM (all hands)
+    HBSM coordination meeting
+    HBSM (all hands)
+    Informal Particle Flow Meeting
+======================================================================================

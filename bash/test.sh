@@ -1,0 +1,3 @@
+source greeting.sh
+
+greeting
