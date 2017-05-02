@@ -1,3 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/users/phchang/analyses/me/HWWMatrixElementCode/build'
+let g:netrw_dirhist_2='/home/users/phchang/analyses/vbfsusygen/MG5_aMC_v2_5_2/SMS-VBF-C1N2_QCD0/Events'
+let g:netrw_dirhist_3='/home/users/phchang/analyses/vbfsusygen/MG5_aMC_v2_5_2/SMS-VBF-C1N2_QCD0/Events/run_01'
+let g:netrw_dirhist_4='/home/users/phchang/analyses/vbfsusygen/MG5_aMC_v2_5_2/SMS-VBF-C1N2_QCD0/Events'
+let g:netrw_dirhist_5='/home/users/phchang/analyses/www/analysis/Ditto/template'
+let g:netrw_dirhist_6='/home/users/phchang/analyses/www/analysis/WWWAnalysis/inputs'
+let g:netrw_dirhist_7='/home/users/phchang/analyses/vbfsusygen/Ditto/.git'
+let g:netrw_dirhist_8='/home/users/phchang/analyses/vbfsusygen/run/jobs'
+let g:netrw_dirhist_9='/home/users/phchang/analyses/www/analysis/Ditto/macros'

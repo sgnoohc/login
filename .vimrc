@@ -110,6 +110,7 @@ nnoremap <silent> <Space> :silent noh<Bar>echo<CR> " Spacebar to clear search
 
 " Setting a foldmethod to be initiated when I type \zs
 nmap <leader>zs        :set foldmethod=syntax<CR>
+set foldopen-=block
 
 if bufwinnr(1)
   map + <C-W>+
@@ -264,5 +265,20 @@ highlight DiffChange cterm=none ctermbg=Black
 highlight DiffText   cterm=none ctermfg=yellow ctermbg=Black
 
 let c_no_curly_error=1
+
+"https://superuser.com/questions/990296/how-to-change-the-way-that-vim-displays-collapsed-folded-lines
+function! NeatFoldText()
+    let line = ' ' . substitute(getline(v:foldstart), '^\s*"\?\s*\|\s*"\?\s*{{' . '{\d*\s*', '', 'g') . ' '
+    let lines_count = v:foldend - v:foldstart + 1
+    let lines_count_text = '| ' . printf("%10s", lines_count . ' lines') . ' |'
+    let foldchar = matchstr(&fillchars, 'fold:\zs.')
+    let foldtextstart = strpart('+' . repeat(foldchar, v:foldlevel*2) . line, 0, (winwidth(0)*2)/3)
+    let foldtextend = lines_count_text . repeat(foldchar, 8)
+    let foldtextlength = strlen(substitute(foldtextstart . foldtextend, '.', 'x', 'g')) + &foldcolumn
+    return foldtextstart . repeat(foldchar, winwidth(0)-foldtextlength) . foldtextend
+    "return foldtextstart
+endfunction
+
+set foldtext=NeatFoldText()
 
 "eof
