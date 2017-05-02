@@ -5,19 +5,20 @@
 
 #--- updates login package
 function _mupdate() {
-	pushd ~/login
-	svn up
-	. ~/.bashrc
-	popd
+  pushd ~/login
+  git pull
+  . ~/.bashrc
+  popd
   jarvis
 }
 
 #--- svn ci login pacakge
 function _mci() {
-	pushd ~/login
-	svn ci -m "update"
-	. ~/.bashrc
-	popd
+  pushd ~/login
+  git commit -a -m msg
+  git push
+  . ~/.bashrc
+  popd
   jarvis
 }
 
