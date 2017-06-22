@@ -15,6 +15,4 @@ function setdisplay() {
 
 setdisplay
 
-echo 'export PATH="$HOME/.linuxbrew/bin:$PATH"' >>~/.bash_profile
-
 #eof

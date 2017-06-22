@@ -42,6 +42,9 @@ done
 if [ -z ${MCDIR} ]; then usage; fi
 if [ -z ${XSEC}  ]; then usage; fi
 
+# to shift away the parsed options
+shift $(($OPTIND - 1))
+
 # Verbose
 date
 echo "================================================"

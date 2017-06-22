@@ -11,6 +11,7 @@ source $HOME/login/vim/a.vim
 "source $HOME/login/vim/minibufexpl.vim
 "source $HOME/login/vim/vim-geeknote-master/plugin/vim_geeknote.vim
 "source $HOME/login/vim/taglist.vim
+source $HOME/login/.vim/plugin/airline.vim
 filetype plugin on
 
 "==================="
@@ -20,9 +21,9 @@ filetype plugin on
 "escape with jk
 :imap jk <Esc>
 syntax on                       "turning on syntax coloring
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
 set cmdheight=2                 " Following lets me not having to Press ENTER like a dog
 set ruler                       " Ruler to be shown on the bottom right corner
@@ -40,11 +41,18 @@ set nowrap
 set list
 set listchars=tab:>-
 
+"
+vnoremap . :norm .<cr>
+
+" For python
+autocmd FileType python set tabstop=4|set shiftwidth=2|set expandtab
+
 " The command :dig displays other digraphs you can use.
 hi CursorLine   cterm=NONE ctermbg=black guibg=darkred guifg=white
 "nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
 nnoremap <Leader>c :set cursorline! <CR>
 nnoremap <Leader><Leader> :wqa!<CR>
+nnoremap <Leader>] :q<CR>
 
 "set comments=sO:*\ -,mO:*\ \ ,exO:*/,s1:/*,mb:*,ex:*/,bO:///,O://
 set ic
@@ -97,6 +105,7 @@ nmap <leader>s<right>  :rightbelow vnew<CR>
 nmap <leader>s<up>     :leftabove  new<CR>
 nmap <leader>s<down>   :rightbelow new<CR>
 nmap <leader>t8        :set tabstop=8<CR>
+nmap <leader>t4        :set tabstop=4<CR>
 nmap <leader>t2        :set tabstop=2<CR>
 
 " cxx <--> h
@@ -118,14 +127,14 @@ if bufwinnr(1)
 endif
 
 " Commenting/uncommenting like CTRL-CC for emacs
-map ,/ :s/^/\/\/<TAB>/<CR>  " c/c++ comment
-map ,? :s/^\/\/<TAB>//<CR>  " c/c++ uncomment
-map ,# :s/^/#<TAB>/<CR>     " shell comment
-map ,3 :s/^#<TAB>//<CR>     " shell uncomment
-map ,% :s/^/%<TAB>/<CR>     " latex comment
-map ,5 :s/^%<TAB>//<CR>     " latex uncomment
-map ," :s/^/"<TAB>/<CR>     " vimrc comment
-map ,' :s/^"<TAB>//<CR>     " vimrc uncomment
+map ,/ :s/^/\/\//<CR><Space>  " c/c++ comment
+map ,? :s/^\/\///<CR><Space>  " c/c++ uncomment
+map ,# :s/^/#/<CR><Space>     " shell comment
+map ,3 :s/^#//<CR><Space>     " shell uncomment
+map ,% :s/^/%/<CR><Space>     " latex comment
+map ,5 :s/^%//<CR><Space>     " latex uncomment
+map ," :s/^/"/<CR><Space>     " vimrc comment
+map ,' :s/^"//<CR><Space>     " vimrc uncomment
 
 
 
@@ -134,7 +143,7 @@ map ,' :s/^"<TAB>//<CR>     " vimrc uncomment
 "========="
 
 " It's useful to show the buffer number in the status line.
-set laststatus=1 "statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+"set laststatus=1 "statusline=%02n:%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 
 " Conveniently accessing buffers
 "set wildchar=<Tab> wildmenu wildmode=full
@@ -170,6 +179,16 @@ nnoremap <Leader>06 :16b<CR>
 nnoremap <Leader>07 :17b<CR>
 nnoremap <Leader>08 :18b<CR>
 nnoremap <Leader>09 :19b<CR>
+nnoremap <Leader>90 :20b<CR>
+nnoremap <Leader>91 :21b<CR>
+nnoremap <Leader>92 :22b<CR>
+nnoremap <Leader>93 :23b<CR>
+nnoremap <Leader>94 :24b<CR>
+nnoremap <Leader>95 :25b<CR>
+nnoremap <Leader>96 :26b<CR>
+nnoremap <Leader>97 :27b<CR>
+nnoremap <Leader>98 :28b<CR>
+nnoremap <Leader>99 :29b<CR>
 
 " " Save folds when closed, load folds when opened.
 " "au BufWinLeave * silent! mkview
@@ -280,5 +299,90 @@ function! NeatFoldText()
 endfunction
 
 set foldtext=NeatFoldText()
+
+" Note: Skip initialization for vim-tiny or vim-small.
+if 0 | endif
+
+if &compatible
+  set nocompatible               " Be iMproved
+endif
+
+" Required:
+set runtimepath+=~/.vim/bundle/neobundle.vim/
+
+" Required:
+call neobundle#begin(expand('~/.vim/bundle/'))
+
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" My Bundles here:
+" Refer to |:NeoBundle-examples|.
+" Note: You don't set neobundle setting in .gvimrc!
+
+NeoBundle 'vim-airline/vim-airline'
+NeoBundle 'vim-airline/vim-airline-themes'
+NeoBundle 'majutsushi/tagbar'
+
+call neobundle#end()
+
+" Required:
+filetype plugin indent on
+
+" If there are uninstalled bundles found on startup,
+" this will conveniently prompt you to install them.
+NeoBundleCheck
+
+set laststatus=2
+set t_Co=256
+set cmdheight=1
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#buffer_idx_mode = 1
+
+let g:airline_theme='badwolf'
+let g:tagbar_ctags_bin='~/software/bin/ctags'
+
+nmap <F8> :TagbarToggle<CR>
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+map <C-\> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+set term=screen-256color
+
+color wombat256mod
+
+execute pathogen#infect()
+
+if exists('$CMSSW_BASE')
+    " search CMS3 first, then local CMSSW, then central CMSSW
+    set path+=$CMSSW_BASE/src/CMS3/NtupleMaker/src
+    set path+=$CMSSW_BASE/src
+    set path+=$CMSSW_RELEASE_BASE/src
+    " remove includes from autocomplete search list, otherwise slow
+    set complete-=i
+endif
+
+
+"map <C-c> :s/^/\/\//<Enter><Space>
+"map <C-u> :s/^\/\///<Enter><Space>
+
+nnoremap <Leader>c, :s/,/,\ /g<CR>
+nnoremap <Leader>ci :s/if(/if\ (/g<CR>
+nnoremap <Leader>cf :s/for(/for\ (/g<CR>
+nnoremap <Leader>c/ :s/\//\ \/\ /g<CR>
+nnoremap <Leader>c+ :s/+/\ +\ /g<CR>
+nnoremap <Leader>c- :s/-/\ -\ /g<CR>
+nnoremap <Leader>c= :s/=/\ =\ /g<CR>
+nnoremap <Leader>c< :s/</\ <\ /g<CR>
+nnoremap <Leader>c; :s/;/\<\ /g<CR>
+nnoremap <Leader>c( :s/(\ /(/g<CR>
+nnoremap <Leader>c) :s/)\ /)/g<CR>
+nnoremap <Leader>c{ :s/){/)\ {/g<CR>
+
+" Use artistic style
+autocmd BufNewFile,BufRead *.cxx set formatprg=astyle\ -s4DUHOyxg
+autocmd BufNewFile,BufRead *.C set formatprg=astyle\ -s4DUHOyxg
+autocmd BufNewFile,BufRead *.h set formatprg=astyle\ -s4DUHOyxg
 
 "eof

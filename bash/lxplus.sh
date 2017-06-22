@@ -18,7 +18,7 @@ function _prepareAtlasSetup() {
 
 #--- short cut for long voms command
 function _gsetup() {
-	voms-proxy-init -voms atlas -valid 90:00
+	voms-proxy-init -hours 168 -voms cms -rfc
 }
 
 #--- saves current node to the lxplus history

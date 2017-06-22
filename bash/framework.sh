@@ -38,14 +38,54 @@ function _newsetupCMS() {
   cd /home/users/phchang/cmssw
 }
 
+function _createSetupCMS() {
+
+    # Environment setting same as my ditto environment
+    echo "" > setup_cmssw.sh
+    echo "source /code/osgcode/cmssoft/cmsset_default.sh  > /dev/null 2>&1" >> setup_cmssw.sh
+    if [ -z $2 ]; then
+        export SCRAM_ARCH=slc6_amd64_gcc530   # or whatever scram_arch you need for your desired CMSSW release
+        echo "export SCRAM_ARCH=slc6_amd64_gcc530" >> setup_cmssw.sh
+    else
+        export SCRAM_ARCH=$2
+        echo "export SCRAM_ARCH=$2" >> setup_cmssw.sh
+    fi
+    if [ -z $1 ]; then
+        export CMSSW_VERSION=CMSSW_8_0_18
+        echo "export CMSSW_VERSION=CMSSW_8_0_18" >> setup_cmssw.sh
+    else
+        export CMSSW_VERSION=$1
+        echo "export CMSSW_VERSION=$1" >> setup_cmssw.sh
+    fi
+    echo "echo Setting up CMSSW for $CMSSW_VERSION for $SCRAM_ARCH" >> setup_cmssw.sh
+    echo "cd /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/$CMSSW_VERSION/src" >> setup_cmssw.sh
+    echo "eval \`scramv1 runtime -sh\`" >> setup_cmssw.sh
+    echo "cd -" >> setup_cmssw.sh
+}
+
 function _setupCMS() {
+
+
+  # Environment setting same as my ditto environment
   source /code/osgcode/cmssoft/cmsset_default.sh  > /dev/null 2>&1
-  export SCRAM_ARCH=slc6_amd64_gcc530   # or whatever scram_arch you need for your desired CMSSW release
-  cd /home/users/phchang/cmssw/CMSSW_8_0_18/
-  alias cmsenv='eval `scramv1 runtime -sh`'
+  if [ -z $2 ]; then
+    export SCRAM_ARCH=slc6_amd64_gcc530   # or whatever scram_arch you need for your desired CMSSW release
+  else
+    export SCRAM_ARCH=$2
+  fi
+  if [ -z $1 ]; then
+    export CMSSW_VERSION=CMSSW_8_0_18
+  else
+    export CMSSW_VERSION=$1
+  fi
+  echo $SCRAM_ARCH
+  echo $CMSSW_VERSION
+  cd /cvmfs/cms.cern.ch/$SCRAM_ARCH/cms/cmssw/$CMSSW_VERSION/src
   eval `scramv1 runtime -sh`
   cd -
+
 }
+export -f _setupCMS
 
 #--- setup AtlasLocalRootBase on lx0.hep.uiuc.edu: (only works on lx0! use setupMT3SW for other nodes)
 function _setupATLAS() {

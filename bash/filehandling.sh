@@ -15,5 +15,10 @@ function _swapfile() {
 	mv $1_swapfile_specific $2
 }
 
+function _pushtolocal() {
+	if [ -z $1 ]; then echo "Must provide filename!"; return; fi
+	scp -P2222 $1 127.0.0.1:~/dump
+}
+
 
 #eof

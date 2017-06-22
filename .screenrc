@@ -2,3 +2,6 @@ caption always '%{= kg}[%L=%{+u b} %=%{-u W}%?%-Lw%?%45L>%{Y}(%n*%f %t)%?(%u)%?%
 defscrollback 100000
 bind ^k next
 bind ' ' windows
+maptimeout 0
+
+term screen-256color
