@@ -359,6 +359,7 @@ if exists('$CMSSW_BASE')
     set path+=$CMSSW_BASE/src/CMS3/NtupleMaker/src
     set path+=$CMSSW_BASE/src
     set path+=$CMSSW_RELEASE_BASE/src
+    set path+=$ROOTSYS/include
     " remove includes from autocomplete search list, otherwise slow
     set complete-=i
 endif
@@ -381,8 +382,12 @@ nnoremap <Leader>c) :s/)\ /)/g<CR>
 nnoremap <Leader>c{ :s/){/)\ {/g<CR>
 
 " Use artistic style
-autocmd BufNewFile,BufRead *.cxx set formatprg=astyle\ -s4DUHOyxg
-autocmd BufNewFile,BufRead *.C set formatprg=astyle\ -s4DUHOyxg
-autocmd BufNewFile,BufRead *.h set formatprg=astyle\ -s4DUHOyxg
+autocmd BufNewFile,BufRead *.cxx set formatprg=astyle\ -s4UHOxgA1
+autocmd BufNewFile,BufRead *.cc set formatprg=astyle\ -s4UHOxgA1
+autocmd BufNewFile,BufRead *.C set formatprg=astyle\ -s4UHOxgA1
+autocmd BufNewFile,BufRead *.h set formatprg=astyle\ -s4UHOxgA1
+
+" Add expression under cursor in real time
+nnoremap <leader>cc ciW<C-r>=<C-r>"<CR><Esc>
 
 "eof
