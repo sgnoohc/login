@@ -45,7 +45,7 @@ set listchars=tab:>-
 vnoremap . :norm .<cr>
 
 " For python
-autocmd FileType python set tabstop=4|set shiftwidth=2|set expandtab
+autocmd FileType python set tabstop=4|set shiftwidth=4|set expandtab
 
 " The command :dig displays other digraphs you can use.
 hi CursorLine   cterm=NONE ctermbg=black guibg=darkred guifg=white

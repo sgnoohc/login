@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/users/phchang/public_html/analysis/www/code/SSAnalysis/FakeRate/measurement_region'
 let g:netrw_dirhist_2='/home/users/phchang/ditto/bin'
 let g:netrw_dirhist_3='/home/users/phchang/login/.vim/colors'
+let g:netrw_dirhist_4='/home/users/phchang/public_html/commission/trigger/CORE'
+let g:netrw_dirhist_5='/home/users/phchang/public_html/analysis/www/studies/chargeflip/scripts'
+let g:netrw_dirhist_6='/home/users/phchang/public_html/commission/ht/scripts'
