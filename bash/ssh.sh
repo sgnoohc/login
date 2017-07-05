@@ -45,4 +45,8 @@ function ssb() {
   ssh -t ssb 'screen -x'
 }
 
+function sshweb() {
+  ssh -A -t uaf-7 ssh -A -t ucsdweb
+}
+
 #eof
