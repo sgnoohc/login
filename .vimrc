@@ -21,7 +21,7 @@ filetype plugin on
 "escape with jk
 :imap jk <Esc>
 syntax on                       "turning on syntax coloring
-set tabstop=4
+set tabstop=8
 set softtabstop=4
 set shiftwidth=4
 set expandtab
@@ -71,6 +71,8 @@ autocmd BufNewFile,BufRead *.vh e ++ff=dos | set tabstop=3 | set syntax=verilog
 autocmd BufNewFile,BufRead *.vhd e ++ff=dos | set tabstop=3 | set syntax=verilog
 autocmd BufNewFile,BufRead *.def set syntax=cfg
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
+nnoremap <Leader>rw :%s/\s\+$//e<CR>
 
 "set formatoptions=
 
@@ -135,7 +137,6 @@ map ,% :s/^/%/<CR><Space>     " latex comment
 map ,5 :s/^%//<CR><Space>     " latex uncomment
 map ," :s/^/"/<CR><Space>     " vimrc comment
 map ,' :s/^"//<CR><Space>     " vimrc uncomment
-
 
 
 "========="
@@ -382,12 +383,20 @@ nnoremap <Leader>c) :s/)\ /)/g<CR>
 nnoremap <Leader>c{ :s/){/)\ {/g<CR>
 
 " Use artistic style
-autocmd BufNewFile,BufRead *.cxx set formatprg=astyle\ -s4UHOxgA1
-autocmd BufNewFile,BufRead *.cc set formatprg=astyle\ -s4UHOxgA1
-autocmd BufNewFile,BufRead *.C set formatprg=astyle\ -s4UHOxgA1
-autocmd BufNewFile,BufRead *.h set formatprg=astyle\ -s4UHOxgA1
+autocmd BufNewFile,BufRead *.cxx set formatprg=astyle\ -s4UHOxgA1pDxbExC120fxj
+autocmd BufNewFile,BufRead *.cc set formatprg=astyle\ -s4UHOxgA1pDxbExC120fxj
+autocmd BufNewFile,BufRead *.C set formatprg=astyle\ -s4UHOxgA1pDxbExC120fxj
+autocmd BufNewFile,BufRead *.h set formatprg=astyle\ -s4UHOxgA1pDxbExC120fxj
 
 " Add expression under cursor in real time
 nnoremap <leader>cc ciW<C-r>=<C-r>"<CR><Esc>
+
+set tags=.tags
+
+inoremap <C-d> <Del>
+
+"nnoremap ,/ I//<Esc>  " c/c++ comment
+"nnoremap ,? I<Del><Del><Esc>  " c/c++ uncomment
+
 
 "eof

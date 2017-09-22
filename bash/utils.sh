@@ -13,6 +13,7 @@ red=$(tput setaf 1)
 green=$(tput setaf 2)
 tan=$(tput setaf 3)
 blue=$(tput setaf 4)
+bluebkg=$(tput setab 4)
 
 #
 # Headers and  Logging

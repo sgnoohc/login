@@ -214,4 +214,8 @@ gitlog() {
   git log --pretty=oneline | head -n1
 }
 
+copy_from_there_to_here() {
+    for thing in `ls *`; do cp $1/$thing .; done
+}
+
 #eof

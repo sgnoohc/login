@@ -17,6 +17,15 @@ function _savexd() {
 #  cd $CURRENTXD
 #}
 
+function _setPS1() {
+    PS1='[\[\e[1;37m\]\h@\u \w \[\e[0m\]]\n[\[\e[4;49;'92'm\]'$1'\[\e[0m\]]$ '
+}
+
+function _ctags() {
+  FULLPATH=$('cd' $(dirname $1); pwd)/$(basename $1)
+  ctags -f .tags -R $FULLPATH/
+}
+
 function _setupBREW() {
   # homebrew related
   export PATH="$HOME/.linuxbrew/bin:$PATH"
@@ -176,6 +185,17 @@ function _ruciogetsize() {
     SIZE=$(rucio list-files ${DS} | grep "Total size" | awk '{print $4}')
     echo $SIZE
   done
+}
+
+#--- screen layout saving
+function _savescreen() {
+    rm -f $HOME/.screen_layout
+    screen -X layout dump .screen_layout
+}
+
+#--- my condor_q
+function _condor_q() {
+    condor_q $USER $1 -const 'JobStatus==2' -l | grep -E "(^ClusterId =|RemoteHost)" | cut -d '=' -f2 | xargs -n 2
 }
 
 
